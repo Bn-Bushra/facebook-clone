@@ -24,7 +24,7 @@ This is a project embarked on to broaden my horizon on web development.
 
 ### HTML Structure
 
-Creating the HTML structure using the wireframe created earlier
+- Creating the HTML structure using the wireframe created earlier
 
 ### CSS styling
 
@@ -36,4 +36,7 @@ Creating the HTML structure using the wireframe created earlier
   screen sizes.
 
 ## JavaScript for Interactivity
- 
+
+
+ # DAY ONE
+ CREATING WIREFRAME AND GUIDELINES (12/07/2023)
