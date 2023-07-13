@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <title>Facebook | Clone</title>
   </head>
   <body>
@@ -26,15 +33,28 @@
           <input type="textarea" />
         </form>
       </div>
-      <div class="post-photo"><img src="" alt="Add a Picture"></div>
-      <div class="key-updates"><img src="" alt="Key Updates"></div>
+      <div class="post-photo"><img src="" alt="Add a Picture" /></div>
+      <div class="key-updates"><img src="" alt="Key Updates" /></div>
     </section>
     <section class="stories">
-      <!-- Stories -->
-      <span><h6>Stories</h6></span>
-      <!-- align to the left and place the icon there -->
-      <span>Your archive</span>
-
+      <div>
+        <!-- Stories heading with padding of 8px-->
+        <span>Stories</span>
+        <!-- align to the left and place the icon there using flexbox  -->
+        <span>Your archive</span>
+      </div>
+      <div class="stories-caro">
+        <!-- Story cards will be placed here dynamically from app.js file -->
+        <!-- Each story card has an img tag for profile picture, username, caption etc... -->
+        <div class="story">
+          <!-- the first one should display the user story or the dp if none -->
+          <div class="mystory">
+            <!-- thumbnail of the dp or story -->
+            <img src="" alt="my stories" />
+            <i class
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="app.js"></script>
