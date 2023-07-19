@@ -16,7 +16,7 @@ This is a project embarked on to broaden my horizon on web development.
 
 ### Wireframing
 
-- I'll need a navbar with six navigation button made with grid(flex)
+- I'll need a NAVBAR with six navigation button made with grid(flex)
 - Then, to the "What's on your mind (creating a container for it)?" which
   contains the profile pics of the user, the what's on your mind bar, a photo
   selection icon and key updates icon.
